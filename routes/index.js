@@ -6,6 +6,7 @@ module.exports = {
       if (err) {
         res.redirect("/");
       }
+
       res.render("index.ejs", {
         title: "Welcome to Users Page | View Users",
         users: result
